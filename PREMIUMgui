@@ -1,0 +1,630 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainGUIFrame = Instance.new("Frame")
+local TrainiumTitle = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local T_Title = Instance.new("ImageLabel")
+local InfoFrame = Instance.new("ScrollingFrame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local HomeFrame = Instance.new("ScrollingFrame")
+local FlyButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local AntiFlingButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local GodmodeButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UnbanButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ClickToTpButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ForceResetButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local AnonymousButton = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local HeadlessButton = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local CashESPButton = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local PlayerESPButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local PlayersFrame = Instance.new("ScrollingFrame")
+local UICorner_14 = Instance.new("UICorner")
+local MiscFrame = Instance.new("ScrollingFrame")
+local UICorner_15 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local TeleportsFrame = Instance.new("ScrollingFrame")
+local UICorner_18 = Instance.new("UICorner")
+local ButtonsFrame = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local InfoButton = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local MiscButton = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local PlayersButton = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TeleportsButton = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local HomeButton = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local _1T_Title = Instance.new("ImageLabel")
+local _2T_Title = Instance.new("ImageLabel")
+local _3T_Title = Instance.new("ImageLabel")
+local _4T_Title = Instance.new("ImageLabel")
+
+
+
+ScreenGui.Parent = game.Workspace
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainGUIFrame.Name = "MainGUIFrame"
+MainGUIFrame.Parent = ScreenGui
+MainGUIFrame.Active = true
+MainGUIFrame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+MainGUIFrame.Position = UDim2.new(0.261380315, 0, 0.300683349, 0)
+MainGUIFrame.Selectable = true
+MainGUIFrame.Size = UDim2.new(0, 650, 0, 350)
+
+TrainiumTitle.Name = "TrainiumTitle"
+TrainiumTitle.Parent = MainGUIFrame
+TrainiumTitle.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+TrainiumTitle.BorderSizePixel = 0
+TrainiumTitle.Position = UDim2.new(0.0123076923, 0, 0.0171428565, 0)
+TrainiumTitle.Size = UDim2.new(0, 634, 0, 45)
+TrainiumTitle.Font = Enum.Font.Merriweather
+TrainiumTitle.Text = " rainium"
+TrainiumTitle.TextColor3 = Color3.fromRGB(131, 7, 255)
+TrainiumTitle.TextSize = 39.000
+TrainiumTitle.TextWrapped = true
+
+UICorner.Parent = TrainiumTitle
+
+T_Title.Name = "T_Title"
+T_Title.Parent = MainGUIFrame
+T_Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+T_Title.BackgroundTransparency = 1.000
+T_Title.Position = UDim2.new(0.34799999, 0, -0.00800000038, 0)
+T_Title.Size = UDim2.new(0, 50, 0, 50)
+T_Title.Image = "http://www.roblox.com/asset/?id=7168433862"
+T_Title.ImageColor3 = Color3.fromRGB(131, 7, 255)
+
+InfoFrame.Name = "InfoFrame"
+InfoFrame.Parent = MainGUIFrame
+InfoFrame.Active = true
+InfoFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+InfoFrame.BorderSizePixel = 0
+InfoFrame.Position = UDim2.new(0.230769232, 0, 0.168571427, 0)
+InfoFrame.Size = UDim2.new(0, 492, 0, 281)
+InfoFrame.Visible = false
+InfoFrame.ScrollBarThickness = 6
+
+TextLabel.Parent = InfoFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, -0.00166293653, 0)
+TextLabel.Selectable = true
+TextLabel.Size = UDim2.new(0, 492, 0, 59)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "This Gui was made by Socials"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 17.000
+
+TextLabel_2.Parent = InfoFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.0648788661, 0)
+TextLabel_2.Selectable = true
+TextLabel_2.Size = UDim2.new(0, 492, 0, 29)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Socials.#0908"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 17.000
+
+TextLabel_3.Parent = InfoFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.316908479, 0)
+TextLabel_3.Selectable = true
+TextLabel_3.Size = UDim2.new(0, 492, 0, 59)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Trainium V1.2"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 22.000
+
+TextLabel_4.Parent = InfoFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0, 0, 0.156307444, 0)
+TextLabel_4.Selectable = true
+TextLabel_4.Size = UDim2.new(0, 492, 0, 29)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "Credits:"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 17.000
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = InfoFrame
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = MainGUIFrame
+HomeFrame.Active = true
+HomeFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0.230769232, 0, 0.168571427, 0)
+HomeFrame.Size = UDim2.new(0, 492, 0, 281)
+HomeFrame.ScrollBarThickness = 6
+
+FlyButton.Name = "FlyButton"
+FlyButton.Parent = HomeFrame
+FlyButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+FlyButton.BorderSizePixel = 0
+FlyButton.Position = UDim2.new(0.024390243, 0, 0.0117474906, 0)
+FlyButton.Size = UDim2.new(0, 467, 0, 33)
+FlyButton.Font = Enum.Font.GothamSemibold
+FlyButton.Text = "Fly"
+FlyButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlyButton.TextSize = 21.000
+
+UICorner_3.Parent = FlyButton
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = HomeFrame
+
+AntiFlingButton.Name = "Anti-FlingButton"
+AntiFlingButton.Parent = HomeFrame
+AntiFlingButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+AntiFlingButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AntiFlingButton.BorderSizePixel = 0
+AntiFlingButton.Position = UDim2.new(0.0240000002, 0, 0.0689999983, 0)
+AntiFlingButton.Size = UDim2.new(0, 467, 0, 33)
+AntiFlingButton.Font = Enum.Font.GothamSemibold
+AntiFlingButton.Text = "Anti-Fling"
+AntiFlingButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiFlingButton.TextSize = 21.000
+
+UICorner_5.Parent = AntiFlingButton
+
+GodmodeButton.Name = "GodmodeButton"
+GodmodeButton.Parent = HomeFrame
+GodmodeButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+GodmodeButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GodmodeButton.BorderSizePixel = 0
+GodmodeButton.Position = UDim2.new(0.0240000002, 0, 0.126000002, 0)
+GodmodeButton.Size = UDim2.new(0, 467, 0, 33)
+GodmodeButton.Font = Enum.Font.GothamSemibold
+GodmodeButton.Text = "Godmode"
+GodmodeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodmodeButton.TextSize = 21.000
+
+UICorner_6.Parent = GodmodeButton
+
+UnbanButton.Name = "UnbanButton"
+UnbanButton.Parent = HomeFrame
+UnbanButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+UnbanButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+UnbanButton.BorderSizePixel = 0
+UnbanButton.Position = UDim2.new(0.0240000002, 0, 0.185000002, 0)
+UnbanButton.Size = UDim2.new(0, 467, 0, 33)
+UnbanButton.Font = Enum.Font.GothamSemibold
+UnbanButton.Text = "Jail Unban"
+UnbanButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+UnbanButton.TextSize = 21.000
+
+UICorner_7.Parent = UnbanButton
+
+ClickToTpButton.Name = "ClickToTpButton"
+ClickToTpButton.Parent = HomeFrame
+ClickToTpButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ClickToTpButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ClickToTpButton.BorderSizePixel = 0
+ClickToTpButton.Position = UDim2.new(0.0240000002, 0, 0.241999999, 0)
+ClickToTpButton.Size = UDim2.new(0, 467, 0, 33)
+ClickToTpButton.Font = Enum.Font.GothamSemibold
+ClickToTpButton.Text = "Click To TP (Q)"
+ClickToTpButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClickToTpButton.TextSize = 21.000
+
+UICorner_8.Parent = ClickToTpButton
+
+ForceResetButton.Name = "ForceResetButton"
+ForceResetButton.Parent = HomeFrame
+ForceResetButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+ForceResetButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ForceResetButton.BorderSizePixel = 0
+ForceResetButton.Position = UDim2.new(0.0240000002, 0, 0.298999995, 0)
+ForceResetButton.Size = UDim2.new(0, 467, 0, 33)
+ForceResetButton.Font = Enum.Font.GothamSemibold
+ForceResetButton.Text = "Force Reset"
+ForceResetButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ForceResetButton.TextSize = 21.000
+
+UICorner_9.Parent = ForceResetButton
+
+AnonymousButton.Name = "AnonymousButton"
+AnonymousButton.Parent = HomeFrame
+AnonymousButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+AnonymousButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AnonymousButton.BorderSizePixel = 0
+AnonymousButton.Position = UDim2.new(0.0240000002, 0, 0.356000006, 0)
+AnonymousButton.Size = UDim2.new(0, 467, 0, 33)
+AnonymousButton.Font = Enum.Font.GothamSemibold
+AnonymousButton.Text = "Anonymous (Mask)"
+AnonymousButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AnonymousButton.TextSize = 21.000
+
+UICorner_10.Parent = AnonymousButton
+
+HeadlessButton.Name = "HeadlessButton"
+HeadlessButton.Parent = HomeFrame
+HeadlessButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+HeadlessButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HeadlessButton.BorderSizePixel = 0
+HeadlessButton.Position = UDim2.new(0.0240000002, 0, 0.412, 0)
+HeadlessButton.Size = UDim2.new(0, 467, 0, 33)
+HeadlessButton.Font = Enum.Font.GothamSemibold
+HeadlessButton.Text = "Headless"
+HeadlessButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HeadlessButton.TextSize = 21.000
+
+UICorner_11.Parent = HeadlessButton
+
+CashESPButton.Name = "CashESPButton"
+CashESPButton.Parent = HomeFrame
+CashESPButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+CashESPButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CashESPButton.BorderSizePixel = 0
+CashESPButton.Position = UDim2.new(0.0240000002, 0, 0.469000012, 0)
+CashESPButton.Size = UDim2.new(0, 467, 0, 33)
+CashESPButton.Font = Enum.Font.GothamSemibold
+CashESPButton.Text = "Cash ESP"
+CashESPButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CashESPButton.TextSize = 21.000
+
+UICorner_12.Parent = CashESPButton
+
+PlayerESPButton.Name = "PlayerESPButton"
+PlayerESPButton.Parent = HomeFrame
+PlayerESPButton.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+PlayerESPButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PlayerESPButton.BorderSizePixel = 0
+PlayerESPButton.Position = UDim2.new(0.0240000002, 0, 0.526000023, 0)
+PlayerESPButton.Size = UDim2.new(0, 467, 0, 33)
+PlayerESPButton.Font = Enum.Font.GothamSemibold
+PlayerESPButton.Text = "Player ESP"
+PlayerESPButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerESPButton.TextSize = 21.000
+
+UICorner_13.Parent = PlayerESPButton
+
+PlayersFrame.Name = "PlayersFrame"
+PlayersFrame.Parent = MainGUIFrame
+PlayersFrame.Active = true
+PlayersFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+PlayersFrame.BorderSizePixel = 0
+PlayersFrame.Position = UDim2.new(0.230769232, 0, 0.168571427, 0)
+PlayersFrame.Size = UDim2.new(0, 492, 0, 281)
+PlayersFrame.Visible = false
+PlayersFrame.ScrollBarThickness = 6
+
+UICorner_14.CornerRadius = UDim.new(0, 10)
+UICorner_14.Parent = PlayersFrame
+
+MiscFrame.Name = "MiscFrame"
+MiscFrame.Parent = MainGUIFrame
+MiscFrame.Active = true
+MiscFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+MiscFrame.BorderSizePixel = 0
+MiscFrame.Position = UDim2.new(0.230769232, 0, 0.168571427, 0)
+MiscFrame.Size = UDim2.new(0, 492, 0, 281)
+MiscFrame.Visible = false
+MiscFrame.ScrollBarThickness = 6
+
+UICorner_15.CornerRadius = UDim.new(0, 10)
+UICorner_15.Parent = MiscFrame
+
+ImageLabel.Parent = MainGUIFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0353846177, 0, 0.685000002, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_16.CornerRadius = UDim.new(0, 7)
+UICorner_16.Parent = ImageLabel
+
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = MainGUIFrame
+
+TeleportsFrame.Name = "TeleportsFrame"
+TeleportsFrame.Parent = MainGUIFrame
+TeleportsFrame.Active = true
+TeleportsFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+TeleportsFrame.BorderSizePixel = 0
+TeleportsFrame.Position = UDim2.new(0.230769232, 0, 0.168571427, 0)
+TeleportsFrame.Size = UDim2.new(0, 492, 0, 281)
+TeleportsFrame.Visible = false
+TeleportsFrame.ScrollBarThickness = 6
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = TeleportsFrame
+
+ButtonsFrame.Name = "ButtonsFrame"
+ButtonsFrame.Parent = MainGUIFrame
+ButtonsFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+ButtonsFrame.Position = UDim2.new(0.0107692303, 0, 0.162857145, 0)
+ButtonsFrame.Size = UDim2.new(0, 133, 0, 176)
+
+UICorner_19.Parent = ButtonsFrame
+
+InfoButton.Name = "InfoButton"
+InfoButton.Parent = MainGUIFrame
+InfoButton.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+InfoButton.BorderSizePixel = 0
+InfoButton.Position = UDim2.new(0.00940427929, 0, 0.166775018, 0)
+InfoButton.Size = UDim2.new(0, 132, 0, 26)
+InfoButton.Font = Enum.Font.GothamSemibold
+InfoButton.Text = "Info & Credits"
+InfoButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfoButton.TextSize = 17.000
+InfoButton.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 7)
+UICorner_20.Parent = InfoButton
+
+MiscButton.Name = "MiscButton"
+MiscButton.Parent = MainGUIFrame
+MiscButton.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+MiscButton.BorderSizePixel = 0
+MiscButton.Position = UDim2.new(0.0109999999, 0, 0.52700001, 0)
+MiscButton.Size = UDim2.new(0, 132, 0, 26)
+MiscButton.Font = Enum.Font.GothamSemibold
+MiscButton.Text = "Others"
+MiscButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MiscButton.TextSize = 23.000
+MiscButton.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 7)
+UICorner_21.Parent = MiscButton
+
+PlayersButton.Name = "PlayersButton"
+PlayersButton.Parent = MainGUIFrame
+PlayersButton.Active = false
+PlayersButton.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+PlayersButton.BorderSizePixel = 0
+PlayersButton.Position = UDim2.new(0.0120000001, 0, 0.352999985, 0)
+PlayersButton.Size = UDim2.new(0, 132, 0, 26)
+PlayersButton.Font = Enum.Font.GothamSemibold
+PlayersButton.Text = "Players"
+PlayersButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayersButton.TextSize = 19.000
+PlayersButton.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 7)
+UICorner_22.Parent = PlayersButton
+
+TeleportsButton.Name = "TeleportsButton"
+TeleportsButton.Parent = MainGUIFrame
+TeleportsButton.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+TeleportsButton.BorderSizePixel = 0
+TeleportsButton.Position = UDim2.new(0.0120000001, 0, 0.444999993, 0)
+TeleportsButton.Size = UDim2.new(0, 132, 0, 26)
+TeleportsButton.Font = Enum.Font.GothamSemibold
+TeleportsButton.Text = "Quick-TP"
+TeleportsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportsButton.TextSize = 17.000
+TeleportsButton.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 7)
+UICorner_23.Parent = TeleportsButton
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = MainGUIFrame
+HomeButton.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+HomeButton.BorderSizePixel = 0
+HomeButton.Position = UDim2.new(0.0109999999, 0, 0.261000007, 0)
+HomeButton.Size = UDim2.new(0, 132, 0, 26)
+HomeButton.Font = Enum.Font.GothamSemibold
+HomeButton.Text = "Home"
+HomeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomeButton.TextSize = 23.000
+HomeButton.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0, 7)
+UICorner_24.Parent = HomeButton
+
+_1T_Title.Name = "1T_Title"
+_1T_Title.Parent = MainGUIFrame
+_1T_Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1T_Title.BackgroundTransparency = 1.000
+_1T_Title.Position = UDim2.new(0.0110768946, 0, 0.246285751, 0)
+_1T_Title.Size = UDim2.new(0, 30, 0, 30)
+_1T_Title.Image = "http://www.roblox.com/asset/?id=7168433862"
+_1T_Title.ImageColor3 = Color3.fromRGB(131, 7, 255)
+
+_2T_Title.Name = "2T_Title"
+_2T_Title.Parent = MainGUIFrame
+_2T_Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2T_Title.BackgroundTransparency = 1.000
+_2T_Title.Position = UDim2.new(0.0110768946, 0, 0.340571463, 0)
+_2T_Title.Size = UDim2.new(0, 30, 0, 30)
+_2T_Title.Image = "http://www.roblox.com/asset/?id=7168433862"
+_2T_Title.ImageColor3 = Color3.fromRGB(131, 7, 255)
+
+_3T_Title.Name = "3T_Title"
+_3T_Title.Parent = MainGUIFrame
+_3T_Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3T_Title.BackgroundTransparency = 1.000
+_3T_Title.Position = UDim2.new(0.0110768946, 0, 0.429142892, 0)
+_3T_Title.Size = UDim2.new(0, 30, 0, 30)
+_3T_Title.Image = "http://www.roblox.com/asset/?id=7168433862"
+_3T_Title.ImageColor3 = Color3.fromRGB(131, 7, 255)
+
+_4T_Title.Name = "4T_Title"
+_4T_Title.Parent = MainGUIFrame
+_4T_Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4T_Title.BackgroundTransparency = 1.000
+_4T_Title.Position = UDim2.new(0.0110768946, 0, 0.514857173, 0)
+_4T_Title.Size = UDim2.new(0, 30, 0, 30)
+_4T_Title.Image = "http://www.roblox.com/asset/?id=7168433862"
+_4T_Title.ImageColor3 = Color3.fromRGB(131, 7, 255)
+
+-- Scripts:
+
+local function DEKG_fake_script() -- ImageLabel.GetPROFILE 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	-- Fetch the thumbnail
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	-- Set the ImageLabel's content to the user thumbnail
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 100, 0, 100)
+end
+coroutine.wrap(DEKG_fake_script)()
+local function RMOEHS_fake_script() -- MainGUIFrame.DraggableScript 
+	local script = Instance.new('LocalScript', MainGUIFrame)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(RMOEHS_fake_script)()
+local function WXMFLY_fake_script() -- InfoButton.OpenInfo 
+	local script = Instance.new('LocalScript', InfoButton)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.InfoFrame.Visible = true
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.PlayersFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+	end)
+end
+coroutine.wrap(WXMFLY_fake_script)()
+local function WPCLDCA_fake_script() -- MiscButton.OpenMisc 
+	local script = Instance.new('LocalScript', MiscButton)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.InfoFrame.Visible = false
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.PlayersFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = true
+		script.Parent.Parent.TeleportsFrame.Visible = false
+	end)
+end
+coroutine.wrap(WPCLDCA_fake_script)()
+local function GQVJ_fake_script() -- PlayersButton.OpenPlayers 
+	local script = Instance.new('LocalScript', PlayersButton)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.InfoFrame.Visible = false
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.PlayersFrame.Visible = true
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+	end)
+end
+coroutine.wrap(GQVJ_fake_script)()
+local function IVVRUOR_fake_script() -- TeleportsButton.OpenTeleports 
+	local script = Instance.new('LocalScript', TeleportsButton)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.InfoFrame.Visible = false
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.PlayersFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = true
+	end)
+end
+coroutine.wrap(IVVRUOR_fake_script)()
+local function CZDR_fake_script() -- HomeButton.OpenHome 
+	local script = Instance.new('LocalScript', HomeButton)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.InfoFrame.Visible = false
+		script.Parent.Parent.HomeFrame.Visible = true
+		script.Parent.Parent.PlayersFrame.Visible = false
+		script.Parent.Parent.MiscFrame.Visible = false
+		script.Parent.Parent.TeleportsFrame.Visible = false
+	end)
+end
+coroutine.wrap(CZDR_fake_script)()
