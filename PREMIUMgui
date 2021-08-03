@@ -59,7 +59,7 @@ local _4T_Title = Instance.new("ImageLabel")
 
 
 
-ScreenGui.Parent = game.Workspace
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainGUIFrame.Name = "MainGUIFrame"
